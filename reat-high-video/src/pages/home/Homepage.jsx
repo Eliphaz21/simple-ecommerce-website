@@ -6,10 +6,12 @@ import "./Homepage.css";
 export function Homepage({cart}) {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    axios.get('/api/products')
-        .then((response) => {
-          setProducts(response.data);
-        });  
+    const getHomeData = async () =>{
+     const response= await axios.get('/api/products');
+     setProducts(response.data);
+    };
+
+     getHomeData();
   }, []);
 
   return (
