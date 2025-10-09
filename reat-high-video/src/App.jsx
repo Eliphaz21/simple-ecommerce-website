@@ -6,7 +6,6 @@ import {CheckoutPage } from './pages/checkout/CheckoutPage'
 import {Orderspage} from './pages/orders/Orderspage'
 import { TrackingPage } from './pages/track/trackingpage'
 import './App.css'
-
 function App() {
   const [cart, setCart] = useState([]);
       const loadCart = async () => {
