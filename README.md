@@ -1,7 +1,7 @@
 # 🛒 E-Commerce Project
 
 A full-stack e-commerce web application that provides users with a modern online shopping experience.  
-This project includes a **frontend** (built with HTML, CSS, JavaScript — possibly a JS framework) and a **backend** (Node.js and/or Python).  
+This project includes a **frontend** (built with HTML, CSS, JavaScript — possibly a JS framework) and a **backend**.  
 
 ---
 
