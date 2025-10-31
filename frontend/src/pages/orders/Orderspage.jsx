@@ -3,8 +3,9 @@ import dayjs from "dayjs";
 import { useState, useEffect, Fragment } from "react";
 import { Header } from "../../components/Header";
 import { formatMoney } from "../../utils/many";
+import { DeliveryOptions } from '../checkout/deliveryOptions';    
 import "./orders.css";
-export function Orderspage({ cart }) {
+export function Orderspage({ cart,loadCart,cartItem }) { 
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
@@ -14,7 +15,10 @@ export function Orderspage({ cart }) {
     };
     fetchorderData();
   }, []);
-
+  const deleteCartItem = async () => {
+    await axios.delete(`/api/orders/:orderId${cartItem.productId}`);
+    await loadCart();
+    };
   return (
     <>
       <title>Orders</title>
@@ -70,6 +74,14 @@ export function Orderspage({ cart }) {
                               Add to Cart
                             </span>
                           </button>
+                          <button 
+                            className="delete-product-button button-secondary"
+                            onClick={deleteCartItem}
+                            >
+                              <span className="delete-message">
+                                Delete Product
+                              </span>
+                            </button>
                         </div>
 
                         <div className="product-actions">

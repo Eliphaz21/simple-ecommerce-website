@@ -218,3 +218,12 @@
     padding: 12px;
   }
 }
+.delete-product-button {
+  background-color: #5236c2; /* Example: A red color for deletion */
+  border-color: #4045a9;
+  font-size: 14px;
+  width: 140px;
+  height: 36px;
+  border-radius: 5px;
+  color: white;
+}
