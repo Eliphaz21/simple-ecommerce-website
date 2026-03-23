@@ -1,11 +1,11 @@
-# 🛒 E-Commerce Project
+#  E-Commerce Project
 
 A full-stack e-commerce web application that provides users with a modern online shopping experience.  
 This project includes a **frontend** (built with HTML, CSS, JavaScript — possibly a JS framework) and a **backend**.  
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ecommerce_project/
 ├── backend/
@@ -42,28 +42,27 @@ The purpose of this project is to explore the fundamentals of full-stack develop
 integration for real-world use cases.
 
 ---
-
-### 💡 4. **Features **
+###  4. **Features **
 List all the cool things your project does.
 
-📘 **Example Expansion:**
+ **Example Expansion:**
 ```markdown
-## ✨ Features
-- 🧍 User Registration & Login (Authentication)
-- 🛍️ Product Browsing with Search & Filter
-- 🛒 Add to Cart / Remove from Cart
-- 💳 Secure Checkout Process
-- 🧾 Order History for Each User
-- 🧰 Admin Dashboard for Product Management
+##  Features
+-  User Registration & Login (Authentication)
+-  Product Browsing with Search & Filter
+-  Add to Cart / Remove from Cart
+-  Secure Checkout Process
+-  Order History for Each User
+-  Admin Dashboard for Product Management
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 Depending on your stack, you may have **two parts** to set up:  
 **Frontend** (React / HTML / Node.js) and **Backend** (Node.js / Python).
 
 ---
 
-### 🧩 Frontend Setup (Node.js)
+###  Frontend Setup (Node.js)
 
 ```bash
 # Move into frontend folder
@@ -105,7 +104,7 @@ python app.py
 cd backend
 npm install
 npm run start
-🧱 Technologies Used
+Technologies Used
 
 Frontend: HTML5, CSS3, JavaScript (and possibly React)
 
@@ -117,9 +116,9 @@ Version Control: Git + GitHub
 
 Package Managers: npm / pip
 
-🧭 Features Overview
+ Features Overview
 
-✅ User registration and authentication
+ User registration and authentication
 ✅ Product listing and detail pages
 ✅ Add to cart, checkout process
 ✅ Order management
