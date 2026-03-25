@@ -4,25 +4,6 @@ A full-stack e-commerce web application that provides users with a modern online
 This project includes a **frontend** (built with HTML, CSS, JavaScript — possibly a JS framework) and a **backend**.  
 
 ---
-
-##  Project Structure
-
-ecommerce_project/
-├── backend/
-│ ├── backend-ai/
-│ ├── node_modules/
-│ ├── package.json
-│ └── (Python/JS server files)
-├── frontend/
-│ ├── index.html
-│ ├── assets/
-│ ├── js/
-│ ├── css/
-│ ├── node_modules/
-│ └── package.json
-└── README.m
-
----
 Home page
 <img width="2195" height="1187" alt="Screenshot 2025-10-31 165934" src="https://github.com/user-attachments/assets/6260447c-9126-4715-9642-609b4eb20581" />
 
