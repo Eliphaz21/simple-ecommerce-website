@@ -17,7 +17,7 @@ orders page
 
 ##  About the Project
 This project is a modern eCommerce web application designed to provide a smooth and intuitive shopping experience for users. 
-It includes a responsive frontend built with HTML, CSS, and JavaScript, and a robust backend .
+It includes a responsive frontend built with react ,javascript and a robust backend .
 
 The purpose of this project is to explore the fundamentals of full-stack development, database management, and server-side logic 
 integration for real-world use cases.
